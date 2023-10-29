@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Plufin - Gallery</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="https://pluf.in">Home</a></li>
+                <li><a href="https://pluf.in/gallery">Gallery</a></li>
+                <li><a href="https://pluf.in/commission">Commission</a></li>
+                <li><a href="https://pluf.in/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+            <h1>Gallery</h1>
+        </section>
+        <section id="about">
+            <div class="galleryContainer">
+                <div class="gallery" id="gallery">
+                    <!-- Images from script.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img src="" alt="Zoomed Image" id="modalImage">
+    </div>
+    <!-- Contact -->
+    <footer class="contactContainer" id="contact">
+        <h4>CONTACT</h4>
+        <button id="loadText">Click me</button>
+        <div id="text"></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

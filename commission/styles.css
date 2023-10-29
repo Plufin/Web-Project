@@ -1,0 +1,71 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+button,
+.quiz-container,
+.btn-container,
+.btn,
+.hide {
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .nav-links a {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.button li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: large;
+  color: white;
+}
+
+p {
+  font-size: large;
+}
+
+body {
+  font-family: Verdana;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgb(255, 246, 198);
+  background: #121212;
+}
+
+h1 {
+  padding-top: 70px;
+  top: 100px;
+  color: antiquewhite;
+  font-size: 56;
+  text-align: center;
+}
+
+h2 {
+  font-size: large;
+  text-align: center;
+}
+
+/*BOXES*/
+.survey {
+  line-height: 50px;
+  background: hsla(21, 57%, 48%, 0.158);
+  margin: 0 auto;
+  padding: 30px;
+  width: 800px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}

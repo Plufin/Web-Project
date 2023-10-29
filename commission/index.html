@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Plufin - Commission</title>
+</head>
+
+<body>
+    <section id="Survey">
+        <h1>Commission</h1>
+        <h2>Please note that this form is not currently functional</h2>
+        <h2><a href="https://pluf.in/">Back</a></h2>
+        <div class="survey">
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="contact">Contact info:</label></td>
+                        <td><input type="text" id="contact" name="contact" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="form">Form:</label></td>
+                        <td>
+                            <select id="form" name="form" required>
+                                <option value="">Select</option>
+                                <option value="digital">Digital</option>
+                                <option value="print">Print</option>
+                                <option value="both">Both</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Theme:</label></td>
+                        <td>
+                            <input type="checkbox" id="fantasy" name="theme" value="fantasy">
+                            <label for="fantasy">Fantasy</label>
+                            <input type="checkbox" id="horror" name="theme" value="horror">
+                            <label for="horror">Horror</label>
+                            <input type="checkbox" id="realism" name="theme" value="realism">
+                            <label for="realism">Realism</label>
+                            <input type="checkbox" id="tattoo" name="theme" value="tattoo">
+                            <label for="tattoo">Tattoo</label>
+                            <input type="checkbox" id="wallpaper" name="theme" value="wallpaper">
+                            <label for="wallpaper">Wallpaper</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="addInfo">Additional information:</label></td>
+                        <td><textarea id="addInfo" name="addInfo" rows="5" cols="50" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
