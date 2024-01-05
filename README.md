@@ -1,5 +1,8 @@
 # Web-Project
 
+Black/Orange-version of [my other repo](https://github.com/Plufin/Simple-Portfolio-Page).
+This repo is for a school project and has way more JavaScript and Asynchronous Operations that I did not find to be neseccary for my own website. Read about this projects functionalities below:
+
 This project includes three main pages:
 
 -  Main Page
@@ -32,7 +35,7 @@ as certain pages have features that others do not.
 - Specified font families, sizes, and colors
 - Transitions (hovering images mostly)
 
-### JavaScript:
+## JavaScript
 - [X] Simple interactions (like alerts on button click).
 - [X] Multiple event listeners and basic DOM manipulations.
 - Scrolling (navBar), opening/closing modal in gallery
