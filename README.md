@@ -2,14 +2,9 @@
 
 This project includes three main pages:
 
-### Main page:
-https://pluf.in/
-
-### Gallery page:
-https://pluf.in/gallery
-
-### Commission page: 
-https://pluf.in/commission
+-  Main Page
+-  Gallery Page
+-  Comission Page
 
 I've attempted to indicate where specific requirements are fulfilled for example,
 as certain pages have features that others do not.
